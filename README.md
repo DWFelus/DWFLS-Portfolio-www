@@ -39,7 +39,7 @@ Version history:
 
 
 ### **v0.1.0 - The Box Models**
-- [ ] create box models for classes and elements
+- [x] create box models for classes and elements
 
 ### **v0.1.1 - Positioning of the Box Models**
 - [ ] position?

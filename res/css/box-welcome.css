@@ -1,29 +1,34 @@
 /* "STAY" / WELCOME box */
 #welcome
 {
-  margin-top: 50%;
+  margin-top: 1%;
 }
 
 .welcome-box
 {    
-  border: 1px solid;
-  margin-bottom: 10%;
+  display: flex;  
 }
 
 .welcome-item
 
 {
-  border: 1px solid;
-  display: inline-flex;
-  margin: 5%;
-  
+  margin: 1%;
+  flex: 1;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
+
+
 
 .welcome-image
 {
-  margin: 5%;
-  border: 1px solid;
-
-  width: 25%;
+  margin: 1%;
   height: auto;
+  max-width: 100%;    
+}
+
+.welcome-text
+{
+  flex:2;
 }

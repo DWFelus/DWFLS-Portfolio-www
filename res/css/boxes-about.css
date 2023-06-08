@@ -1,28 +1,33 @@
 /* ABOUT */
 #about
 {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .about-box
-{    
-  border: 1px solid;
-  margin-bottom: 10%;
+{      
+  display: flex;
 }
 
 .about-item
 {
-  border: 1px solid;
-  display: inline-flex;
-  margin: 5%;
+  margin: 1%;
+  padding: 1%;
+  flex: 1;
+  display: flex; /* Use flexbox to center the content */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
   
+}
+
+#about-text
+{
+  flex: 2;
 }
 
 .about-image
 {
-  margin: 5%;
-  border: 1px solid;
-
-  width: 25%;
+  margin: 1%;
+  width: 100%;
   height: auto;
 }

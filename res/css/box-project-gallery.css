@@ -1,20 +1,22 @@
 /*PROJECTS GALLERY*/
 #project-gallery
 {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .project-gallery-box
-{
-  
-  border: 1px solid;
-  
-  margin-top: 10%;  
+{  
+  display: flex; 
+  flex-wrap: wrap;
 }
 
 .project-box-image
 {
-  margin: 5%;
-  width: 35%;
+  margin: 1%;
+  max-width: 30%;
   height: auto;
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  flex: 1;
 }
