@@ -15,7 +15,7 @@ Version history:
 - [x] if necesarry, split .css into separate files
 
 ### **v0.0.3 - Image Replacement p1**
-- [ ] replace stock pictures with full-size pictures
+- [x] replace stock pictures with full-size pictures
 
 ### **v0.0.4 - Basic css styling**
 - [ ] change font attributes for all classes and elements (rule sets)
