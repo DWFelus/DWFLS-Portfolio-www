@@ -9,13 +9,13 @@ Version history:
 - [x] WWW title
 - [x] Initial Commit
 
-
 ### **v0.0.2 - Create .css file**
-- [ ] create .css and link it
-- [ ] list all classes and elements in .css
+- [x] create .css and link it
+- [x] list all classes and elements in .css
+- [x] if necesarry, split .css into separate files
 
-### **v0.0.3 - Image Replacement**
-- [ ] replace stock pictures with go to pictures
+### **v0.0.3 - Image Replacement p1**
+- [ ] replace stock pictures with full-size pictures
 
 ### **v0.0.4 - Basic css styling**
 - [ ] change font attributes for all classes and elements (rule sets)
@@ -30,7 +30,7 @@ Version history:
   - [ ] background colors
   - [ ] opacity
   - [ ] borders
-- [ ] if necesarry, split .css into separate files
+
 
 ### **v0.1.0 - The Box Models**
 - [ ] create box models for classes and elements
@@ -94,7 +94,7 @@ Version history:
 
 ### **v0.3.0 - Accessibility and readibility**
 - [ ] add favicon
-- [ ] add icons 
+- [ ] add icons (from font awesome)
 - [ ] added alt/role atributes
 
 
@@ -116,6 +116,9 @@ Version history:
   - [ ] Desktop
   - [ ] Mobile
   - [ ] Tablet
+
+### **v0.8.0 - Image Replacement p2**
+  - [ ] replace stock pictures with "go-to" pictures
 
 ### **v.1.0.0 Publish on GithubPages**
 - [ ] done
