@@ -18,18 +18,24 @@ Version history:
 - [x] replace stock pictures with full-size pictures
 
 ### **v0.0.4 - Basic css styling**
-- [ ] change font attributes for all classes and elements (rule sets)
-  - [ ] link fonts from 
-  - [ ] fonts family
-    - [ ] add fallback fonts
-  - [ ] margins
-  - [ ] sizes (in em's)
-  - [ ] alignments
-  - [ ] weights
-  - [ ] font colors
-  - [ ] background colors
-  - [ ] opacity
-  - [ ] borders
+- [x] change attributes for all classes and elements (rule sets)
+  - [x] link fonts from google fonts
+  - [x] fonts family
+    - [x] add fallback fonts
+  margin: 0px;
+  font-size:
+  text-align:
+  font-weight:
+  color:
+  background-color:
+  opacity:
+  border:
+
+  for images:
+  width:
+  height:
+- [x] mock box models with bordering
+- [x] separate into more css files for distinct boxes
 
 
 ### **v0.1.0 - The Box Models**

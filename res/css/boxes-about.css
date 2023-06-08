@@ -1,0 +1,28 @@
+/* ABOUT */
+#about
+{
+  margin-top: 15%;
+}
+
+.about-box
+{    
+  border: 1px solid;
+  margin-bottom: 10%;
+}
+
+.about-item
+{
+  border: 1px solid;
+  display: inline-flex;
+  margin: 5%;
+  
+}
+
+.about-image
+{
+  margin: 5%;
+  border: 1px solid;
+
+  width: 25%;
+  height: auto;
+}

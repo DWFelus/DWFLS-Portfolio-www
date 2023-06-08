@@ -1,0 +1,29 @@
+/* "STAY" / WELCOME box */
+#welcome
+{
+  margin-top: 50%;
+}
+
+.welcome-box
+{    
+  border: 1px solid;
+  margin-bottom: 10%;
+}
+
+.welcome-item
+
+{
+  border: 1px solid;
+  display: inline-flex;
+  margin: 5%;
+  
+}
+
+.welcome-image
+{
+  margin: 5%;
+  border: 1px solid;
+
+  width: 25%;
+  height: auto;
+}

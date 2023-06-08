@@ -1,0 +1,22 @@
+/*PROJECTS LIST*/
+#project-list
+{
+  margin-top: 15%;
+}
+.project-list-box
+{
+  margin: 5%;
+}
+
+.project-list-item
+{
+  border: 1px solid;
+  margin: 5%;
+}
+
+.project-list-image
+{
+  margin: 5%;
+  width: 35%;
+  height: auto;
+}

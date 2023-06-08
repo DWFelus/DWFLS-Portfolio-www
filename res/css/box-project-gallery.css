@@ -1,0 +1,20 @@
+/*PROJECTS GALLERY*/
+#project-gallery
+{
+  margin-top: 15%;
+}
+
+.project-gallery-box
+{
+  
+  border: 1px solid;
+  
+  margin-top: 10%;  
+}
+
+.project-box-image
+{
+  margin: 5%;
+  width: 35%;
+  height: auto;
+}
