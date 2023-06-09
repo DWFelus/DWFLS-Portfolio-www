@@ -9,12 +9,17 @@
     <!-- CSS FILES -->
     <link rel="stylesheet" type="text/css" href="./res/css/links.css">
     <link rel="stylesheet" type="text/css" href="./res/css/common.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-cover.css">
     <link rel="stylesheet" type="text/css" href="./res/css/box-project-gallery.css">
     <link rel="stylesheet" type="text/css" href="./res/css/box-project-list.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/boxes-about.css">    
+    <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">    
+    <link rel="stylesheet" type="text/css" href="./res/css/box-content.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/box-about.css">    
     <link rel="stylesheet" type="text/css" href="./res/css/media.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/box-arrow.css">    
+    <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">
+
+    <!-- Font Awesome link-->
+    <script src="https://kit.fontawesome.com/ad6cff3a8c.js" crossorigin="anonymous"></script>
 
     <!-- FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,141 +27,193 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
-
   </head>
+
 
   <!-- VISIBLE WWW -->
   <body>
-
     <!-- NAV -->
-    <nav></nav>
+    <nav>
+      <div class="navbar">
+        <h1 class="nav-name">DWFLS</h1>
+        <h1 class="nav-text">HI!</h1>
+        <h1 class="nav-text">Projects</h1>
+        <h1 class="nav-text">About me</h1>
+        <h1 class="nav-text">Github</h1>
+      </div>
+    </nav>
 
-    <!-- COVER -->
+
+    <!--MAIN CONTENT>-->
+    <div class="content-box">      
+      <div class="content-right">        
+        <div>
+          <h2 id="tagline" class="h2-icon-container">Hello World,<br> I'm Dariusz!<span></span></h2>
+        </div>
         
-    <header>
-      <div class="cover-box">
-        <h1 id="tagline">Hello World,<br> I'm Dariusz!:)</h1>
-        <img class="cover-image" src="res/placeholder-img/cover-img.jpg" alt="">
+      </div>
+
+      <!--SCROLL CONTENT-->
+      <div class="content-left">
+        
+
+
+
+        <!--ARROW/COVER BOX -->
+        <div class="arrow-box">
+          <div class="video-container">
+            <img id="cover" src="./res/placeholder-img/cover-img.jpg">
+
+          </div>
+          <div id="arrow-quiver">
+            <i class="fa-solid fa-arrow-down fa-beat-fade" id="arrow-down"></i> 
+          </div>        
+        </div>  
+
+
+
+
+        <!-- WELCOME BOX -->
+        <div class="headline-wrapper">
+        <div class="headline" id="welcome">
+          <h2>Stay awhile and take a look</h2>
+        </div>
+      </div>
+        
+        <div class="box" >    
+          <div class="welcome-box">
+            <div class="welcome-item">
+              <img class="welcome-image" src="res/placeholder-img/welcome-img.jpg">
+            </div>
+
+            <div class="welcome-item welcome-text">
+            
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+        <!-- PROJECTS GALLERY BOX -->
+        <div class="headline-wrapper">
+        <div class="headline" id="project-gallery">
+          <h2>Projects I'm working on</h2>
+        </div> </div>
+
+        <div class="box" > 
+          <div class="project-gallery-box"> 
+              <img class="project-box-image" src="./res/placeholder-img/project-cover1.jpg">        
+              <img class="project-box-image" src="./res/placeholder-img/project-cover2.jpg">        
+              <img class="project-box-image" src="./res/placeholder-img/project-cover3.jpg">  
+              <img class="project-box-image" src="./res/placeholder-img/project-cover4.jpg">
+              <img class="project-box-image" src="./res/placeholder-img/project-cover5.jpg">
+              <img class="project-box-image" src="./res/placeholder-img/project-cover6.jpg">
+          </div>
+        </div>
+        
+
+
+
+        <!-- ABOUT ME BOX -->
+        <div class="headline-wrapper">
+        <div class="headline" id="about">
+          <h2>Little notes about me</h2>
+        </div>
+      </div>
+
+        <div class="box">   
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>        
+
+          <div class="about-box">            
+
+            <div class="about-item">
+              
+              <p id="non-just">Things I enjoy doing in my spare time:<br><br>
+                - Hobby 1<br>
+                - Hobby 1<br>
+                - Hobby 1<br>
+                - Hobby 1<br>
+                - Hobby 1<br>
+                - Hobby 1<br>
+              </p> 
+            </div>
+            <div class="about-item">
+              <div class="profile-pic-circle">
+              <img class="about-image" src="./res/placeholder-img/yellowBox250x250.png">
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        <!-- PROJECTS LIST BOX -->
+        <div class="headline-wrapper">
+        <div class="headline" id="project-list">
+          <h2>Projects in depth</h2>
+        </div> 
+      </div>
+
+        <div class="box" >      
+          <div class="project-list-box"> 
+            <div class="project-list-item">
+              <img class="project-list-image" src="./res/placeholder-img/project-cover1.jpg">
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+
+            <div class="project-list-item">
+              <img class="project-list-image" src="./res/placeholder-img/project-cover2.jpg">
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+
+            <div class="project-list-item">          
+              <img class="project-list-image" src="./res/placeholder-img/project-cover3.jpg">
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+              
+            <div class="project-list-item">
+              <img class="project-list-image" src="./res/placeholder-img/project-cover4.jpg">
+
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+            <div class="project-list-item">
+              <img class="project-list-image" src="./res/placeholder-img/project-cover5.jpg">
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+
+            <div class="project-list-item">
+              <img class="project-list-image" src="./res/placeholder-img/project-cover6.jpg">
+              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
       
-      </div>
-    </header>
-
-    
-    <div class="content-split">
-
-    <!-- WELCOME BOX -->
-    <div class="headline" id="welcome">
-      <h2>Stay awhile and take a look</h2>
     </div>
-    
-    <div class="box" >    
-      <div class="welcome-box">
-        <div class="welcome-item">
-          <img class="welcome-image" src="res/placeholder-img/welcome-img.jpg">
-        </div>
-
-        <div class="welcome-item welcome-text">
-        
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
-        </div>
-      </div>
-     </div>
-     
-    <!-- PROJECTS GALLERY BOX -->
-    <div class="headline" id="project-gallery">
-      <h2>Projects I'm working on</h2>
-    </div> 
-
-    <div class="box" > 
-      <div class="project-gallery-box"> 
-          <img class="project-box-image" src="./res/placeholder-img/project-cover1.jpg">        
-          <img class="project-box-image" src="./res/placeholder-img/project-cover2.jpg">        
-          <img class="project-box-image" src="./res/placeholder-img/project-cover3.jpg">  
-          <img class="project-box-image" src="./res/placeholder-img/project-cover4.jpg">
-          <img class="project-box-image" src="./res/placeholder-img/project-cover5.jpg">
-          <img class="project-box-image" src="./res/placeholder-img/project-cover6.jpg">
-      </div>
-
-    </div>
-    
-    <!-- ABOUT ME BOX -->
-    <div class="headline" id="about">
-      <h2>Little notes about me</h2>
-    </div>
-
-    <div class="box">   
-      <div class="about-box">
-
-        <div class="about-item" id="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
-        </div>
-
-        <div class="about-item">
           
-          <p id="non-just">Things I enjoy doing in my spare time:<br><br>
-            - Hobby 1<br>
-            - Hobby 1<br>
-            - Hobby 1<br>
-            - Hobby 1<br>
-            - Hobby 1<br>
-            - Hobby 1<br>
 
-          </p> 
-        </div>
 
-        <div class="about-item">
-          <img class="about-image" src="./res/placeholder-img/yellowBox250x250.png">
-        </div>
 
+  <!-- FOOTER -->
+
+    <footer>
+      <div class="foot">
+        <h1 class="foot-text">AutosaveNotepad</h1>
+        <h1 class="foot-text">YourLocalHero</h1>
+        <h1 class="foot-text">Themed Pomodoro</h1>
+        <h1 class="foot-text">Productivity Scripts</h1>
+        <h1 class="foot-text">Forge Tracker</h1>
       </div>
-    </div>
-    
-    <!-- PROJECTS LIST BOX -->
-    <div class="headline" id="project-list">
-      <h2>Projects in depth</h2>
-    </div> 
+     </footer>  
 
-    <div class="box" >      
-      <div class="project-list-box"> 
-        <div class="project-list-item">
-          <img class="project-list-image" src="./res/placeholder-img/project-cover1.jpg">
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
 
-        <div class="project-list-item">
-          <img class="project-list-image" src="./res/placeholder-img/project-cover2.jpg">
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
-
-        <div class="project-list-item">          
-          <img class="project-list-image" src="./res/placeholder-img/project-cover3.jpg">
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
-          
-        <div class="project-list-item">
-          <img class="project-list-image" src="./res/placeholder-img/project-cover4.jpg">
-
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
-        <div class="project-list-item">
-          <img class="project-list-image" src="./res/placeholder-img/project-cover5.jpg">
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
-
-        <div class="project-list-item">
-          <img class="project-list-image" src="./res/placeholder-img/project-cover6.jpg">
-          <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-        
-    <!-- FOOTER -->
-
-    <footer></footer>  
 
   </body>
-  <!-- VISIBLE WWW END -->
 
+  <!-- VISIBLE WWW END -->
 </html>

@@ -1,0 +1,71 @@
+.navbar
+{
+  position: fixed;
+  background-color: black;
+
+  top:0;
+  left:0;
+  right:0;
+
+  width:100%;
+  height:8vh;
+  text-align: center;
+  display: flex; /* Added to enable flexbox */
+  justify-content: center; /* Horizontally center child elements */
+  align-items: center;
+
+}
+
+.navbar h1
+{
+  color: white;  
+  font-size: 1.5rem;
+  margin-top: 1%;
+
+}
+.nav-name
+{
+  margin-top: 1%;
+  margin-right: 50%;
+  left:5%
+}
+.nav-text
+{
+  margin: 1% 2%;
+}
+
+
+
+.foot
+{
+  position: fixed;
+  background-color: black;
+
+  bottom:0;
+  left:0;
+  right:0;
+
+  width:100%;
+  height:8vh;
+  text-align: center;
+  display: flex; /* Added to enable flexbox */
+  justify-content: left; /* Horizontally center child elements */
+  align-items: center;
+
+}
+
+.foot h1
+{
+  color: rgb(157, 157, 157);  
+  margin-top: 1%;
+
+}
+
+.foot-text
+{
+  margin: 1% 2%;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;  
+  text-transform:none;
+  text-align: center;
+}

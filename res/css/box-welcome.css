@@ -1,11 +1,12 @@
 /* "STAY" / WELCOME box */
 #welcome
-{
+{ 
   margin-top: 1%;
 }
 
 .welcome-box
 {    
+  
   display: flex;  
 }
 

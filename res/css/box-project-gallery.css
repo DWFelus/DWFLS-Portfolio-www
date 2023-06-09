@@ -8,6 +8,10 @@
 {  
   display: flex; 
   flex-wrap: wrap;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  margin-left: -2%;
+  margin-right: -2%;
 }
 
 .project-box-image

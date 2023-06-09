@@ -1,0 +1,31 @@
+.content-box
+{   
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.content-left {
+  flex-basis: 66.66%; /* Takes up 2/3 of the width */
+  flex-grow: 0; /* Prevents it from growing further */  
+}
+
+.content-right {
+  flex-basis: 33.33%; /* Takes up 1/3 of the width */
+  flex-grow: 0; /* Prevents it from growing further */
+  position: fixed; /* Fixes the element */
+  right: 0; /* Positions it on the right side */
+  top: 0; /* Positions it at the top */
+  overflow: hidden; /* Prevents scrolling */
+
+  top: 60%;
+  right: 5%;
+}
+
+#tagline
+{
+  z-index: 2; 
+  color: white;
+  text-align: right;
+  font-size: 3rem;
+}

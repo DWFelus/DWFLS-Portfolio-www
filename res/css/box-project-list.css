@@ -23,3 +23,9 @@
   height: auto;
   max-width: 50%;  
 }
+
+.project-list-text
+{
+  align-self: flex-start;
+  margin-left: 1%;
+}
