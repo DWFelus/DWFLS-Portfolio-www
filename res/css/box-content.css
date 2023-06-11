@@ -7,7 +7,8 @@
 
 .content-left {
   flex-basis: 66.66%; /* Takes up 2/3 of the width */
-  flex-grow: 0; /* Prevents it from growing further */  
+  flex-grow: 0; /* Prevents it from growing further */    
+  
 }
 
 .content-right {
@@ -16,7 +17,7 @@
   position: fixed; /* Fixes the element */
   right: 0; /* Positions it on the right side */
   top: 0; /* Positions it at the top */
-  overflow: hidden; /* Prevents scrolling */
+  overflow: visible; 
 
   top: 60%;
   right: 5%;
@@ -28,4 +29,6 @@
   color: white;
   text-align: right;
   font-size: 3rem;
+  
+text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }

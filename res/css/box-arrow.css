@@ -10,6 +10,8 @@
   display: flex; /* Added to enable flexbox */
   z-index: -1;
   bottom: 5vh;
+
+  
 }
 
 #arrow-quiver
@@ -29,7 +31,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
+
 
 .video-container
 {
@@ -38,7 +43,11 @@
       
   display: flex;
   justify-content: center;
-  align-self:center;  
+  align-self:center;   
+}
+
+#cover
+{
   
-  
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
 }

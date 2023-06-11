@@ -98,9 +98,10 @@ Version history:
 - [x] done
 
 ### **v0.3.0 - Accessibility and readibility**
-- [ ] add favicon
-- [ ] add icons (from font awesome)
-- [ ] added alt/role atributes
+- [x] add favicon
+- [x] add icons (from font awesome)
+- [x] add shadows to the boxes
+- [x] added alt/role atributes
 
 
 ### **v0.4.0 - Add CSS Transitions**

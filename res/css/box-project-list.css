@@ -21,11 +21,13 @@
 {
   margin: 1%;
   height: auto;
-  max-width: 50%;  
+  max-width: 50%; 
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .project-list-text
 {
   align-self: flex-start;
   margin-left: 1%;
+  
 }
