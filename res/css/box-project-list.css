@@ -15,6 +15,18 @@
   display: flex;
   align-items: center; 
   justify-content: center;
+  filter: grayscale(25%);
+  position: relative;
+  transition: transform 1s ease, box-shadow 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+}
+
+.project-list-item:hover
+{
+  background-color: rgb(243, 243, 243);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  
+  filter: grayscale(0%);
 }
 
 .project-list-image

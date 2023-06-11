@@ -33,8 +33,17 @@
   align-items: center;
   
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  cursor: pointer;
 }
 
+#arrow-quiver.show
+{
+  opacity: 1;
+  cursor: pointer;
+}
 
 .video-container
 {
@@ -48,6 +57,14 @@
 
 #cover
 {
-  
+  opacity: 0;
+  transition: opacity 1s ease-in;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
+
+
+}
+
+#cover.loaded 
+{
+  opacity: 1;
 }

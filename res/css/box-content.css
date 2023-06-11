@@ -22,13 +22,3 @@
   top: 60%;
   right: 5%;
 }
-
-#tagline
-{
-  z-index: 2; 
-  color: white;
-  text-align: right;
-  font-size: 3rem;
-  
-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}

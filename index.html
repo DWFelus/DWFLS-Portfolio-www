@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DWFLS Portfolio</title>
 
-    <!-- CSS FILES -->
-    <link rel="stylesheet" type="text/css" href="./res/css/links.css">
+    <!-- CSS FILES -->    
     <link rel="stylesheet" type="text/css" href="./res/css/common.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-project-gallery.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-project-list.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">    
-    <link rel="stylesheet" type="text/css" href="./res/css/box-content.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-about.css">    
+
+      <link rel="stylesheet" type="text/css" href="./res/css/box-project-gallery.css">
+      <link rel="stylesheet" type="text/css" href="./res/css/box-project-list.css">
+      <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">    
+      <link rel="stylesheet" type="text/css" href="./res/css/box-content.css">
+      <link rel="stylesheet" type="text/css" href="./res/css/box-about.css"> 
+      <link rel="stylesheet" type="text/css" href="./res/css/box-arrow.css">   
+      <link rel="stylesheet" type="text/css" href="./res/css/box-tagline.css">  
+
+    <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">  
+
     <link rel="stylesheet" type="text/css" href="./res/css/media.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/box-arrow.css">    
-    <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/links.css">
+    
 
     <!-- Font Awesome link-->
-    <script src="https://kit.fontawesome.com/ad6cff3a8c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ad6cff3a8c.js" crossorigin="anonymous"></script>       
 
     <!-- FAVICON-->
     <link rel="icon" href="./favicon.png" type="image/png">
@@ -30,27 +35,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="./res/js/typewriter.js"></script> 
+    <script src="./res/js/coverLoading.js"></script>     
+    <script src="./res/js/gotoOffset.js"></script>     
+    <script src="./res/js/navFooterSlide.js"></script>     
+    <script src="./res/js/bodyColorTransition.js"></script>
+
+    
   </head>
 
 
   <!-- VISIBLE WWW -->
   <body>
-    <!-- NAV -->
+    <!-- NAV + FOOTER -->
     
     <nav role="presentation"> 
-        <h1 class="nav-name">DWFLS</h1>
-        <h1 class="nav-text">HI!</h1>
-        <h1 class="nav-text">Projects</h1>
-        <h1 class="nav-text">About me</h1>
-        <h1 class="nav-text">Github</h1>    
+        <h1 class="nav-name"><a href="#top">DWFLS</a></h1>
+        <h1 class="nav-text"><a href="#welcome">HI!</h1>
+        <h1 class="nav-text"><a href="#project-gallery">Projects</h1>
+        <h1 class="nav-text"><a href="#about">About me</h1>
+        <h1 class="nav-text"><a href="https://github.com/DWFelus" target="_blank">Github</h1>    
     </nav>
+
+    <footer role="presentation"> >
+      <h1 class="foot-text"><a href="#gotoAS">AutosaveNotepad</a></h1>
+      <h1 class="foot-text"><a href="#gotoYLH">YourLocalHero</a></h1>
+      <h1 class="foot-text"><a href="#gotoTP">Themed Pomodoro</a></h1>
+      <h1 class="foot-text"><a href="#gotoPS">Productivity Scripts</a></h1>
+      <h1 class="foot-text"><a href="#gotoFT">Forge Tracker</a></h1>      
+      <h1 class="foot-text"><a href="#gotoMP">Music Programmer</a></h1>
+   </footer>  
 
 
     <!--MAIN CONTENT>-->
     <div class="content-box">      
       <div class="content-right">        
         <div class="tagline-container" role="presentation"> 
-          <h2 id="tagline" class="h2-icon-container">Hello World,<br> I'm Dariusz!<span></span></h2>
+          <h2 id="tagline"><span></span></h2>
         </div>
         
       </div>
@@ -64,14 +86,14 @@
 
 
         <!--ARROW/COVER BOX -->
-        <div class="arrow-box" role="presentation"> 
+        <div class="arrow-box" role="presentation" id="top"> 
           <div class="video-container">
             <img id="cover" src="./res/placeholder-img/cover-img.jpg" alt="Cover video of the www">
 
           </div>
-          <div id="arrow-quiver">
+          <div id="arrow-quiver">            
             <i class="fa-solid fa-arrow-down fa-beat-fade" id="arrow-down"></i> 
-          </div>        
+          </div>       
         </div>  
 
 
@@ -108,16 +130,41 @@
           </div>
         </div>
 
-        <div class="box" > 
+        <div class="box"> 
           <div class="project-gallery-box" role="presentation"> 
-              <img class="project-box-image" src="./res/placeholder-img/project-cover1.jpg">        
-              <img class="project-box-image" src="./res/placeholder-img/project-cover2.jpg">        
-              <img class="project-box-image" src="./res/placeholder-img/project-cover3.jpg">  
-              <img class="project-box-image" src="./res/placeholder-img/project-cover4.jpg">
-              <img class="project-box-image" src="./res/placeholder-img/project-cover5.jpg">
-              <img class="project-box-image" src="./res/placeholder-img/project-cover6.jpg">
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover1.jpg" alt="Project 1">
+              </a>
+            </div>
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover2.jpg" alt="Project 2">
+              </a>
+            </div>
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover3.jpg" alt="Project 3">
+              </a>
+            </div>
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover4.jpg" alt="Project 4">
+              </a>
+            </div>
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover5.jpg" alt="Project 5">
+              </a>
+            </div>
+            <div class="project-gallery-item">
+              <a href="#gotoAS">
+                <img class="project-box-image" src="./res/placeholder-img/project-cover6.jpg" alt="Project 6">
+              </a>
+            </div>
           </div>
         </div>
+        
         
 
 
@@ -165,32 +212,31 @@
 
         <div class="box" >      
           <div class="project-list-box"> 
-            <div class="project-list-item">
-              <img class="project-list-image" src="./res/placeholder-img/project-cover1.jpg" alt="Screenshot of project 1">
+            <div class="project-list-item" id="gotoAS">
+              <img class="project-list-image"  src="./res/placeholder-img/project-cover1.jpg" alt="Screenshot of project 1">
               <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
 
-            <div class="project-list-item">
-              <img class="project-list-image" src="./res/placeholder-img/project-cover2.jpg" alt="Screenshot of project 2">
+            <div class="project-list-item" id="gotoYLH">
+              <img class="project-list-image"  src="./res/placeholder-img/project-cover2.jpg" alt="Screenshot of project 2">
               <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
 
-            <div class="project-list-item">          
-              <img class="project-list-image" src="./res/placeholder-img/project-cover3.jpg" alt="Screenshot of project 3">
+            <div class="project-list-item" id="gotoTP">          
+              <img class="project-list-image"  src="./res/placeholder-img/project-cover3.jpg" alt="Screenshot of project 3">
               <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
               
-            <div class="project-list-item">
-              <img class="project-list-image" src="./res/placeholder-img/project-cover4.jpg" alt="Screenshot of project 4">
-
-              <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="project-list-item" id="gotoPS">
+              <img class="project-list-image"  src="./res/placeholder-img/project-cover4.jpg" alt="Screenshot of project 4">
+              <div class="project-list-text" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
-            <div class="project-list-item">
+            <div class="project-list-item" id="gotoFT">
               <img class="project-list-image" src="./res/placeholder-img/project-cover5.jpg" alt="Screenshot of project 5">
               <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
 
-            <div class="project-list-item">
+            <div class="project-list-item" id="gotoMP">
               <img class="project-list-image" src="./res/placeholder-img/project-cover6.jpg" alt="Screenshot of project 6">
               <div class="project-list-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
@@ -200,22 +246,6 @@
       </div>
       
     </div>
-          
-
-
-
-  <!-- FOOTER -->
-
-    <footer role="presentation"> >
-        <h1 class="foot-text">AutosaveNotepad</h1>
-        <h1 class="foot-text">YourLocalHero</h1>
-        <h1 class="foot-text">Themed Pomodoro</h1>
-        <h1 class="foot-text">Productivity Scripts</h1>
-        <h1 class="foot-text">Forge Tracker</h1>
-     </footer>  
-
-
-
   </body>
 
   <!-- VISIBLE WWW END -->

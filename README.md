@@ -105,9 +105,9 @@ Version history:
 
 
 ### **v0.4.0 - Add CSS Transitions**
-- [ ] Transitions and animations for individual elements
-- [ ] Add links to the elements for going to individual elements
-- [ ] on hover change body gradient
+- [x] Transitions and animations for individual elements
+- [x] Add links to the elements for going to individual elements
+- [x] on hover change body gradient
 
 ### **v0.5.0 - Rulesets with @Media for different devices**
 - [ ] model scenarios
