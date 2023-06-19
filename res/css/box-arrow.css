@@ -1,18 +1,40 @@
 .arrow-box
 { 
   position: relative; /* Added to establish a containing block for absolute positioning */
-  left: 0vh;
+  
+  
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.0);
 
 
-  display: flex; /* Added to enable flexbox */
   z-index: -1;
   bottom: 5vh;
+  
 
   
 }
+
+.video-container
+{  
+  height: 60vh;
+  width: 100%;    
+}
+
+#cover
+{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
+
+}
+
+#cover.loaded 
+{
+  opacity: 1;
+}
+
+
 
 #arrow-quiver
 {
@@ -45,26 +67,3 @@
   cursor: pointer;
 }
 
-.video-container
-{
-  height: 60vh;
-  width: 100%;
-      
-  display: flex;
-  justify-content: center;
-  align-self:center;   
-}
-
-#cover
-{
-  opacity: 0;
-  transition: opacity 1s ease-in;
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
-
-
-}
-
-#cover.loaded 
-{
-  opacity: 1;
-}

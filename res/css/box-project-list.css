@@ -11,7 +11,7 @@
 
 .project-list-item
 {
-  margin: 1%;
+  margin: 2%;
   display: flex;
   align-items: center; 
   justify-content: center;
@@ -23,7 +23,7 @@
 .project-list-item:hover
 {
   background-color: rgb(243, 243, 243);
-  transform: scale(1.05);
+  transform: scale(1.02);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
   
   filter: grayscale(0%);
@@ -32,7 +32,7 @@
 .project-list-image
 {
   margin: 1%;
-  height: auto;
+  height: 50%;
   max-width: 50%; 
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
@@ -40,6 +40,6 @@
 .project-list-text
 {
   align-self: flex-start;
-  margin-left: 1%;
+  margin: 1%;
   
 }

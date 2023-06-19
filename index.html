@@ -19,7 +19,19 @@
 
     <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">  
 
-    <link rel="stylesheet" type="text/css" href="./res/css/media.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p.css"> 
+
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait768p.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape768p.css"> 
+
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait576p.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape576p.css"> 
+
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p+.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p+.css">
+
+
     <link rel="stylesheet" type="text/css" href="./res/css/links.css">
     
 
@@ -36,7 +48,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
     <!-- JS -->
-    <script src="./res/js/typewriter.js"></script> 
+    <script src="./res/js/typewriterTagline.js"></script> 
+    <script src="./res/js/typewriterTaglineCenter.js"></script> 
     <script src="./res/js/coverLoading.js"></script>     
     <script src="./res/js/gotoOffset.js"></script>     
     <script src="./res/js/navFooterSlide.js"></script>     
@@ -48,6 +61,8 @@
 
   <!-- VISIBLE WWW -->
   <body>
+    
+    <div id="top"></div>
     <!-- NAV + FOOTER -->
     
     <nav role="presentation"> 
@@ -69,7 +84,8 @@
 
 
     <!--MAIN CONTENT>-->
-    <div class="content-box">      
+    <div class="content-box">    
+        
       <div class="content-right">        
         <div class="tagline-container" role="presentation"> 
           <h2 id="tagline"><span></span></h2>
@@ -82,15 +98,24 @@
       <!--SCROLL CONTENT-->
       <div class="content-left">
         
-
+        
 
 
         <!--ARROW/COVER BOX -->
-        <div class="arrow-box" role="presentation" id="top"> 
+        <div class="arrow-box" role="presentation">         
+                         
+        
           <div class="video-container">
-            <img id="cover" src="./res/placeholder-img/cover-img.jpg" alt="Cover video of the www">
-
+            <img id="cover"  src="./res/placeholder-img/cover-img.jpg" alt="Cover video of the www">
           </div>
+             
+
+
+          <div id="tagline-center-container">
+            <h2 id="tagline-center">Hello World,<br>I'm Dariusz!:)<span></span></h2>
+          </div>     
+
+          
           <div id="arrow-quiver">            
             <i class="fa-solid fa-arrow-down fa-beat-fade" id="arrow-down"></i> 
           </div>       
@@ -205,10 +230,10 @@
         
         <!-- PROJECTS LIST BOX -->
         <div class="headline-wrapper">
-        <div class="headline" id="project-list">
-          <h2>Projects in depth</h2>
-        </div> 
-      </div>
+          <div class="headline" id="project-list">
+            <h2>Projects in depth</h2>
+          </div> 
+        </div>
 
         <div class="box" >      
           <div class="project-list-box"> 
@@ -243,6 +268,15 @@
           </div>
 
         </div>
+
+        <div class="headline-wrapper">
+          <div class="headline" id="bottom">
+            <h2></h2>
+          </div> 
+          
+        </div>
+        
+
       </div>
       
     </div>

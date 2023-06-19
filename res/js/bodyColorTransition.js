@@ -33,7 +33,7 @@ document.addEventListener('scroll', function() {
     document.body.style.backgroundColor = targets[targets.length - 1].color;
   } else {
     // Reset the background to the initial state
-    document.body.style.backgroundColor = 'rgba(84, 78, 152, 1)';
+    document.body.style.backgroundColor = 'rgba(42, 39, 75, 1)';
   }
 
 });

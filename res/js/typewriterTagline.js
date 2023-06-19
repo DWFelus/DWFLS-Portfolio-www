@@ -26,7 +26,7 @@ function startTextAnimation()
 function typeWriter(text, fnCallback)
 {
   var i = 0;
-  var h2Element = document.querySelector("h2");
+  var h2Element = document.querySelector("#tagline");
 
   var intervalId = setInterval(function()
   {

@@ -110,10 +110,15 @@ Version history:
 - [x] on hover change body gradient
 
 ### **v0.5.0 - Rulesets with @Media for different devices**
-- [ ] model scenarios
-  - [ ] Desktop
-  - [ ] Mobile
-  - [ ] Tablet
+  - [x] 576p portrait
+  - [x] 768p portrait
+  - [x] 1080p portrait
+  - [x] 1080p+ portait
+
+  - [x] 576p landscape
+  - [x] 768p landscape
+  - [x] 1080p landscape
+  - [x] 1080p+ landscape
 
 ### **v0.6.0 - Writing Content**
 - [ ] Feeding paragraph content from txt files for quicker editing in AutosaveNotepad
@@ -123,9 +128,8 @@ Version history:
   - [ ] replace stock pictures with "go-to" pictures and videos
 
 ### **v0.8.0 - Test Responsiveness and links**
-  - [ ] Desktop
-  - [ ] Mobile
-  - [ ] Tablet
+
+### **v0.9.0 - Code clean up**
 
 ### **v.1.0.0 Publish on GithubPages**
 - [ ] done

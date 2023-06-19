@@ -2,7 +2,8 @@
 
 body
 {   
-  background: rgb(42, 39, 75);
+  margin: 0 auto;
+  background: rgba(42, 39, 75,1);
 } 
 
 
@@ -47,6 +48,11 @@ body
   z-index: -1;
   opacity: 0;
   transition: opacity 1s ease-in 200ms;
+}
+
+#bottom
+{
+  background-color: rgba(255, 255, 255,0);
 }
 
 .headline.show
