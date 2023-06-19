@@ -59,7 +59,7 @@
   
   #tagline
   {  
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
   
   #arrow-quiver
@@ -71,14 +71,14 @@
   
   .nav-text
   {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:0.5%;
     margin: 1%;
   }
 
   .nav-name
   {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     padding:0.5%;
   }
 
@@ -92,7 +92,7 @@
   
   .foot-text
   {
-    font-size: 1.25rem; 
+    font-size: 1.1rem; 
   }
   
   /* BOXES */
@@ -105,7 +105,7 @@
 
   p
   {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .project-list-box
   {

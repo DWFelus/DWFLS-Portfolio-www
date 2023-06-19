@@ -20,5 +20,8 @@
   top: 0; /* Positions it at the top */
   overflow: visible; 
 
-  right: 5%;
+  right: 2%;
+
+  top: 50%;
 }
+

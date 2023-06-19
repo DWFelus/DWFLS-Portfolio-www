@@ -120,8 +120,11 @@ Version history:
   - [x] 1080p landscape
   - [x] 1080p+ landscape
 
+### **v0.5.1 - Fix Resolution Deadzone**
+- [x] fix half screen on 4K display
+- [x] fix half screen on 1080p display
+
 ### **v0.6.0 - Writing Content**
-- [ ] Feeding paragraph content from txt files for quicker editing in AutosaveNotepad
 - [ ] Replace Loreum ipsum with text
 
 ### **v0.7.0 - Image Replacement p2**

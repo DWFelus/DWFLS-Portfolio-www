@@ -4,33 +4,33 @@
 /* TEXT FORMATTING */
 #tagline-center
 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 p
 {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 h2
 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 .nav-name
 {
-  font-size: 5rem;  
-  margin-right: 10%;
+  font-size: 3.5rem;  
+  margin-right: 7%;
 }
 
 .nav-text
 {
-  font-size: 3rem;  
+  font-size: 2.5rem;  
 }
 
 .foot-text
 {
-  font-size: 1.8rem; 
+  font-size: 1.3rem; 
 }
 
 /* DIVs */  

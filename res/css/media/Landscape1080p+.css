@@ -1,36 +1,36 @@
 @media (min-width: 1921px) and (min-height: 1081px) and (orientation: landscape)
 {
-  /* TEXT FORMATTING */
-#tagline
-{
-  font-size: 4.5rem;
-}
+    /* TEXT FORMATTING */
+  #tagline
+  {
+    font-size: 3.3rem;
+  }
 
-p
-{
-  font-size: 1.8rem;
-}
+  p
+  {
+    font-size: 1.4rem;
+  }
 
-h2
-{
-  font-size: 2.5rem;
-}
+  h2
+  {
+    font-size: 2.0rem;
+  }
 
-.nav-name
-{
-  font-size: 5rem;  
-  margin-right: 10%;
-}
+  .nav-name
+  {
+    font-size: 3.7rem;  
+    margin-right: 10%;
+  }
 
-.nav-text
-{
-  font-size: 3rem;  
-}
+  .nav-text
+  {
+    font-size: 2.5rem;  
+  }
 
-.foot-text
-{
-  font-size: 1.8rem; 
-}
+  .foot-text
+  {
+    font-size: 1.3rem; 
+  }
   /* DIVS */
   .box
   {
@@ -162,5 +162,5 @@ h2
   {
     height: 50vh;
     visibility: hidden;
-   }
+  }
 }
