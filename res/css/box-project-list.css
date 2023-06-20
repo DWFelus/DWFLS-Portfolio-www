@@ -39,7 +39,8 @@
 
 .project-list-text
 {
-  align-self: flex-start;
+  
+  text-align: center;
   margin: 1%;
   
 }

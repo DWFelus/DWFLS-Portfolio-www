@@ -125,7 +125,7 @@ Version history:
 - [x] fix half screen on 1080p display
 
 ### **v0.6.0 - Writing Content**
-- [ ] Replace Loreum ipsum with text
+- [x] Replace Loreum ipsum with text
 
 ### **v0.7.0 - Image Replacement p2**
   - [ ] replace stock pictures with "go-to" pictures and videos

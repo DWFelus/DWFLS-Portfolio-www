@@ -99,7 +99,7 @@
   
   .welcome-box
   {      
-    display: flex;  
+    display: block;  
   }
   
 
