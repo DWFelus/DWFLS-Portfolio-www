@@ -5,9 +5,8 @@
 }
 
 .welcome-box
-{    
-  
-  display: flex;  
+{
+  display: block;  
 }
 
 .welcome-item
@@ -20,13 +19,11 @@
   justify-content: center;
 }
 
-
-
 .welcome-image
 {
   margin: 1%;
   height: auto;
-  max-width: 100%;    
+  max-width: 100%;
 }
 
 .welcome-text

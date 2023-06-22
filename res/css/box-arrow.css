@@ -26,6 +26,7 @@
 
 #cover
 {
+  filter: contrast(1.0) brightness(1.0) saturate(0.7) sepia(0.0) blur(0px);
   opacity: 0;
   transition: opacity 1s ease-in;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);

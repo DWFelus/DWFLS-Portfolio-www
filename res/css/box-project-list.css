@@ -3,10 +3,10 @@
 {
   margin-top: 5%;
 }
+
 .project-list-box
 {
-  display: block;
-    
+  display: block;    
 }
 
 .project-list-item
@@ -38,9 +38,7 @@
 }
 
 .project-list-text
-{
-  
+{  
   text-align: center;
-  margin: 1%;
-  
+  margin: 1%;  
 }

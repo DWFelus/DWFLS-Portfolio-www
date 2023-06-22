@@ -19,6 +19,9 @@
 
     <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">  
 
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p+.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p+.css">
+
     <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p.css">
     <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p.css"> 
 
@@ -27,10 +30,6 @@
 
     <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait576p.css">
     <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape576p.css"> 
-
-    <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p+.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p+.css">
-
 
     <link rel="stylesheet" type="text/css" href="./res/css/links.css">
     
@@ -50,7 +49,7 @@
     <!-- JS -->
     <script src="./res/js/typewriterTagline.js"></script> 
     <script src="./res/js/typewriterTaglineCenter.js"></script> 
-    <script src="./res/js/coverLoading.js"></script>     
+    <script src="./res/js/coverLoading.js"></script>    
     <script src="./res/js/gotoOffset.js"></script>     
     <script src="./res/js/navFooterSlide.js"></script>     
     <script src="./res/js/bodyColorTransition.js"></script>
@@ -70,7 +69,7 @@
         <h1 class="nav-text"><a href="#welcome">HI!</h1>
         <h1 class="nav-text"><a href="#project-gallery">Projects</h1>
         <h1 class="nav-text"><a href="#about">About me</h1>
-        <h1 class="nav-text"><a href="https://github.com/DWFelus" target="_blank">Github</h1>    
+        <h1 class="nav-text"><a href="https://github.com/DWFelus" onclick='window.open("https://github.com/DWFelus");return false;'>Github</h1>    
     </nav>
 
     <footer role="presentation"> >
@@ -83,43 +82,33 @@
 
 
     <!--MAIN CONTENT>-->
-    <div class="content-box">    
-        
+    <div class="content-box">   
+      
+      <!--ANIMATED HEADLINE-->
       <div class="content-right">        
         <div class="tagline-container" role="presentation"> 
           <h2 id="tagline"><span></span></h2>
-        </div>
-        
+        </div>        
       </div>
-
-
 
       <!--SCROLL CONTENT-->
       <div class="content-left">
-        
-        
-
 
         <!--ARROW/COVER BOX -->
-        <div class="arrow-box" role="presentation">         
-                         
-        
+        <div class="arrow-box" role="presentation">
+                  
           <div class="video-container">
-            <img id="cover"  src="./res/placeholder-img/cover-img.jpg" alt="Cover video of the www">
+            <video id="cover" autoplay loop muted src="res/video/cover5mbps50speed.mp4" alt="Cover video of the www"></video>
           </div>
              
-
-
           <div id="tagline-center-container">
             <h2 id="tagline-center">Hello World,<br>I'm Dariusz!:)<span></span></h2>
           </div>     
-
           
           <div id="arrow-quiver">            
             <i class="fa-solid fa-arrow-down fa-beat-fade" id="arrow-down"></i> 
           </div>       
         </div>  
-
 
 
 
@@ -133,15 +122,15 @@
         <div class="box" >    
           <div class="welcome-box">
             <div class="welcome-item">
-              <img class="welcome-image" src="res/placeholder-img/welcome-img.jpg" alt="Picture of a retro pc">
+              <video class="welcome-image" autoplay loop muted src="res/video/welcomeVideoV2.mp4" alt="Video of a retro pc"></video>
             </div>
 
             <div class="welcome-item welcome-text">
             
-              <p>
-                
+              <p id="non-just">
                 Welcome to my portfolio website!
                 <br><br>
+             
 
                 I'm excited to connect with you and share my passion for computer technology. With a genuine fascination for technology that has fueled me throughout my life, I am dedicated to finding a role where I can contribute my skills and mindset.
                 <br><br>
@@ -155,15 +144,13 @@
             </div>
           </div>
         </div>
-        
-
 
 
 
         <!-- PROJECTS GALLERY BOX -->
         <div class="headline-wrapper" role="presentation"> 
           <div class="headline" id="project-gallery">
-            <h2>Projects I'm working on</h2>
+            <h2>Navigate to projects I'm working on</h2>
           </div>
         </div>
 
@@ -171,40 +158,38 @@
           <div class="project-gallery-box" role="presentation"> 
             <div class="project-gallery-item">
               <a href="#gotoAS">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover1.jpg" alt="Project 1">
+                <img class="project-box-image" src="./res/img/as.png" alt="AutosaveNotepad">
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoYLH">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover2.jpg" alt="Project 2">
+                <img class="project-box-image" src="./res/img/ylh.png" alt="YourLocalHero">
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoTP">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover3.jpg" alt="Project 3">
+                <img class="project-box-image" src="./res/img/tp.png" alt="ThemedPomodoro">
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPS">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover4.jpg" alt="Project 4">
+                <img class="project-box-image" src="./res/img/ps.png" alt="Productivity Scripts">
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPORT">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover5.jpg" alt="Project 5">
+                <img class="project-box-image" src="./res/img/www.png" alt="Portfolio WWW">
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoMP">
-                <img class="project-box-image" src="./res/placeholder-img/project-cover6.jpg" alt="Project 6">
+                <img class="project-box-image" src="./res/img/mp.png" alt="Music Programmer">
               </a>
             </div>
           </div>
-        </div>
+        </div>   
         
         
-
-
 
         <!-- ABOUT ME BOX -->
         <div class="headline-wrapper">
@@ -220,7 +205,7 @@
             <br><br>
             Aside from my love for computers, I am an avid fan of <b>productivity systems</b>. Finding efficient ways to optimize my workflows to <b>make my life and work easier</b>. I'm always on the lookout for new tools and techniques to streamline my work and make the most out of each day.
             <br><br>
-            Over the years, I've taken it upon myself to self-teach a variety of skills that remain in my repertoire to this day. From <b>video editing to playing all sorts of guitars, and even the ancient art of archery</b>, I have embraced the thrill of acquiring new abilities and expanding my horizons. This pursuit of knowledge and growth serves as a perpetual source of inspiration in my life.
+            Over the years, I've taken it upon myself to self-teach a variety of skills that remain in my repertoire to this day. From <b>video editing to playing all sorts of guitars, and even the ancient art of archery</b>, I have embraced the thrill of acquiring new abilities and expanding my horizons. This pursuit of knowledge and growth serves me as a perpetual source of inspiration in my life.
 
           </p>        
 
@@ -242,7 +227,7 @@
             </div>
             <div class="about-item">
               <div class="profile-pic-circle">
-              <img class="about-image" src="./res/placeholder-img/yellowBox250x250.png" alt="Picture of the www owner and author">
+              <img class="about-image" src="./res/img/prof.jpg" alt="Picture of the www owner and author">
             </div>
             </div>
           </div>
@@ -250,22 +235,21 @@
 
 
 
-        
         <!-- PROJECTS LIST BOX -->
         <div class="headline-wrapper">
           <div class="headline" id="project-list">
-            <h2>Projects in depth</h2>
+            <h2>Projects in depth on Github</h2>
           </div> 
         </div>
 
         <div class="box" >      
           <div class="project-list-box"> 
+            
+            <a href="https://github.com/DWFLS/AutosaveNotepad" onclick='window.open("https://github.com/DWFLS/AutosaveNotepad");return false;'>
             <div class="project-list-item" id="gotoAS">
-              <img class="project-list-image"  src="./res/placeholder-img/project-cover1.jpg" alt="Screenshot of project 1">
+              <img class="project-list-image"  src="./res/img/as.png" alt="Screenshot of AutosaveNotepad">
               <div class="project-list-text">
                 
-                <h2>AutosaveNotepad</h2>
-
                 <p>
                 Introducing <b>AutosaveNotepad</b>, my super handy text editor that's designed with peace of mind in mind. It's simple to use, and it took care of automatically saving my work as I went, so I'd never have to worry about losing my precious text. AutosaveNotepad won't ever tell you can't shut off your computer because there's a text file not saved!
                 <br><br>
@@ -277,12 +261,12 @@
               
               </p></div>
             </div>
-
+            </a>
+            <a href="https://github.com/DWFLS/YourLocalHero" onclick='window.open("https://github.com/DWFLS/YourLocalHero");return false;'>
             <div class="project-list-item" id="gotoYLH">
-              <img class="project-list-image"  src="./res/placeholder-img/project-cover2.jpg" alt="Screenshot of project 2">
+              <img class="project-list-image"  src="./res/img/ylh.png" alt="YourLocalHero">
               <div class="project-list-text">
                 
-                <h2>YourLocalHero</h2>
                 <p>  
                 A personal project I've been working on to learn SQL. It's a desktop application connected to a local database that allowed me to experiment and gain hands-on experience with SQL queries. <b>YourLocalHero</b> features an intuitive graphical user interface (GUI) with a user-friendly search box where you can input your queries effortlessly. 
                 <br><br>
@@ -294,12 +278,13 @@
 
               </p></div>
             </div>
+          </a>
 
+            <a href="https://github.com/DWFelus/ThemedPomodoro" onclick='window.open("https://github.com/DWFelus/ThemedPomodoro");return false;'>
             <div class="project-list-item" id="gotoTP">          
-              <img class="project-list-image"  src="./res/placeholder-img/project-cover3.jpg" alt="Screenshot of project 3">
+              <img class="project-list-image"  src="./res/img/tp.png" alt="ThemedPomodoro">
               <div class="project-list-text">
                 
-                <h2>ThemedPomodoro</h2>
                 <p>
                 When I started learning to code, I needed a tool that would help me to grasp many concepts at the same time, and so the idea behind <b>ThemedPomodoro</b> was born. It's designed to enhance productivity and goal achievement through structured routines, while incorporating spaced repetition for effective learning and information retention.
                 <br><br>
@@ -311,12 +296,13 @@
               
               </p></div>
             </div>
-              
+          </a>
+
+            <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts");return false;'> 
             <div class="project-list-item" id="gotoPS">
-              <img class="project-list-image"  src="./res/placeholder-img/project-cover4.jpg" alt="Screenshot of project 4">
+              <img class="project-list-image"  src="./res/img/ps.png" alt="Productivity Scripts">
               <div class="project-list-text">
                 
-                <h2>Suite of Productivity Scripts</h2>
                 <p>                
                 Let me introduce you to certain <b>Suite of Productivity Scripts</b> that I'm really proud of! These scripts have been a game-changer for me, allowing me to streamline tasks and boost my productivity through automation.
                 <br><br>
@@ -326,11 +312,13 @@
               
               </p></div>
             </div>
+          </a>
+
+            <a href="https://github.com/DWFelus/DWFLS-Portfolio-www" onclick='window.open("https://github.com/DWFelus/DWFLS-Portfolio-www");return false;'>
             <div class="project-list-item" id="gotoPORT">
-              <img class="project-list-image" src="./res/placeholder-img/project-cover5.jpg" alt="Screenshot of project 5">
+              <img class="project-list-image" src="./res/img/www.png" alt="Screenshot of Portfolio Website">
               <div class="project-list-text">
                 
-                <h2>PORTFOLIO WEBSITE</h2>
                 <p>                
                 This webpage you look at now is <b>the very first website I've ever written!</b>
                 <br><br>
@@ -341,12 +329,12 @@
               
               </p></div>
             </div>
-
+          </a>
+            <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat");return false;'>
             <div class="project-list-item" id="gotoMP">
-              <img class="project-list-image" src="./res/placeholder-img/project-cover6.jpg" alt="Screenshot of project 6">
+              <img class="project-list-image" src="./res/img/mp.png" alt="Screenshot of Music Programmer">
               <div class="project-list-text">
                 
-                <h2>MUSIC PROGRAMMER</h2>
                 <p>
                   The <b>Music Programmer</b> script is a creation born out of my deep passion for music. I wanted to automate the decision-making process of what to listen to and when to avoid option paralysis on a daily basis. 
                   <br><br>
@@ -356,9 +344,13 @@
 
               </p></div>
             </div>
+          </a>
           </div>
 
         </div>
+
+
+
 
         <div class="headline-wrapper">
           <div class="headline" id="bottom">
@@ -371,7 +363,6 @@
       </div>
       
     </div>
+      <!-- VISIBLE WWW END -->
   </body>
-
-  <!-- VISIBLE WWW END -->
 </html>

@@ -128,7 +128,7 @@ Version history:
 - [x] Replace Loreum ipsum with text
 
 ### **v0.7.0 - Image Replacement p2**
-  - [ ] replace stock pictures with "go-to" pictures and videos
+  - [x] replace stock pictures with "go-to" pictures and videos
 
 ### **v0.8.0 - Test Responsiveness and links**
 

@@ -1,11 +1,13 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', function()
+ {
   const cover = document.getElementById('cover');
   const arrowQuiver = document.getElementById('arrow-quiver');
 
   const boxes = document.getElementsByClassName('box');
   const headlineWrappers = document.getElementsByClassName('headline-wrapper');
 
-  cover.addEventListener('transitionend', function() {
+  cover.addEventListener('transitionend', function() 
+  {
     arrowQuiver.classList.add('show');
 
     for (let i = 0; i < boxes.length; i++) {
@@ -18,5 +20,6 @@ window.addEventListener('load', function() {
     }
   });
 
-  cover.classList.add('loaded');
+ cover.classList.add('loaded');
+
 });

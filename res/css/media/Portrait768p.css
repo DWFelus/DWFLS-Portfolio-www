@@ -77,11 +77,14 @@
 /* BOXES */
 
 .welcome-box
-{    
-  
+{ 
   display: block;  
 }
 
+.about-box
+{
+  display: block; 
+}
 
 #project-list
 {
@@ -90,8 +93,7 @@
 
 .project-list-box
 {
-  margin-bottom: 7vh;
-  
+  margin-bottom: 7vh;  
   align-items:center; 
 }
 .project-list-item
