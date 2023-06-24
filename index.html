@@ -7,17 +7,16 @@
     <title>DWFLS Portfolio</title>
 
     <!-- CSS FILES -->    
-    <link rel="stylesheet" type="text/css" href="./res/css/common.css">
-
-      <link rel="stylesheet" type="text/css" href="./res/css/box-project-gallery.css">
-      <link rel="stylesheet" type="text/css" href="./res/css/box-project-list.css">
-      <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">    
-      <link rel="stylesheet" type="text/css" href="./res/css/box-content.css">
-      <link rel="stylesheet" type="text/css" href="./res/css/box-about.css"> 
-      <link rel="stylesheet" type="text/css" href="./res/css/box-arrow.css">   
-      <link rel="stylesheet" type="text/css" href="./res/css/box-tagline.css">  
-
+    <link rel="stylesheet" type="text/css" href="./res/css/common.css">    
     <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">  
+
+    <link rel="stylesheet" type="text/css" href="./res/css/box-project-gallery.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/box-project-list.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/box-welcome.css">    
+    <link rel="stylesheet" type="text/css" href="./res/css/box-content.css">
+    <link rel="stylesheet" type="text/css" href="./res/css/box-about.css"> 
+    <link rel="stylesheet" type="text/css" href="./res/css/box-arrow.css">   
+    <link rel="stylesheet" type="text/css" href="./res/css/box-tagline.css"> 
 
     <link rel="stylesheet" type="text/css" href="./res/css/media/Portrait1080p+.css">
     <link rel="stylesheet" type="text/css" href="./res/css/media/Landscape1080p+.css">
@@ -53,6 +52,7 @@
     <script src="./res/js/gotoOffset.js"></script>     
     <script src="./res/js/navFooterSlide.js"></script>     
     <script src="./res/js/bodyColorTransition.js"></script>
+    <script src="./res/js/autoplayGalleryVideos.js"></script>
 
     
   </head>
@@ -122,7 +122,7 @@
         <div class="box" >    
           <div class="welcome-box">
             <div class="welcome-item">
-              <video class="welcome-image" autoplay loop muted src="res/video/welcomeVideoV2.mp4" alt="Video of a retro pc"></video>
+              <video class="welcome-image" autoplay loop muted loading="lazy" src="res/video/welcomeVideoV2.mp4" alt="Video of a retro pc"></video>
             </div>
 
             <div class="welcome-item welcome-text">
@@ -158,32 +158,33 @@
           <div class="project-gallery-box" role="presentation"> 
             <div class="project-gallery-item">
               <a href="#gotoAS">
-                <img class="project-box-image" src="./res/img/as.png" alt="AutosaveNotepad">
+                <video class="project-box-image" src="./res/video/as.mp4" poster="res/img/as.png" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoYLH">
-                <img class="project-box-image" src="./res/img/ylh.png" alt="YourLocalHero">
+                <video class="project-box-image" src="./res/video/ylh.mp4" poster="res/img/ylh.png" loading="lazy" muted alt="YourLocalHero"></video>
+
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoTP">
-                <img class="project-box-image" src="./res/img/tp.png" alt="ThemedPomodoro">
+                <video class="project-box-image" src="./res/video/tp.mp4" poster="res/img/tp.png" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPS">
-                <img class="project-box-image" src="./res/img/ps.png" alt="Productivity Scripts">
+                <video class="project-box-image" src="./res/video/ps.mp4" poster="res/img/ps.png" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPORT">
-                <img class="project-box-image" src="./res/img/www.png" alt="Portfolio WWW">
+                <video class="project-box-image" src="./res/video/www.mp4" poster="res/img/www.png" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoMP">
-                <img class="project-box-image" src="./res/img/mp.png" alt="Music Programmer">
+                <video class="project-box-image" src="./res/video/mp.mp4" poster="res/img/mp.png" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
           </div>
@@ -193,10 +194,10 @@
 
         <!-- ABOUT ME BOX -->
         <div class="headline-wrapper">
-        <div class="headline" id="about">
-          <h2>Little notes about me</h2>
+          <div class="headline" id="about">
+            <h2>Little notes about me</h2>
+          </div>
         </div>
-      </div>
 
         <div class="box">   
           <p>           
@@ -211,8 +212,7 @@
 
           <div class="about-box">            
 
-            <div class="about-item">
-              
+            <div class="about-item">              
               <p id="non-just">Besides working with computers, my favorite pastimes include:<br><br>
                 - Embarking on a daylong <b>bicycle tours</b>, where I get to explore new places while remaining fit.<br>
                 - <b>Traveling abroad</b> specifically to attend <b>live concerts</b>. Best coupled with a bike touring!<br> 
@@ -221,10 +221,9 @@
 
                 <br>
                 These are just a few glimpses into my life and interests. I'm always open to new experiences and opportunities, and I look forward to sharing my passion and skills with others on this exciting journey called <i>life</i>.
-    
-
               </p> 
             </div>
+
             <div class="about-item">
               <div class="profile-pic-circle">
               <img class="about-image" src="./res/img/prof.jpg" alt="Picture of the www owner and author">
@@ -247,7 +246,7 @@
             
             <a href="https://github.com/DWFLS/AutosaveNotepad" onclick='window.open("https://github.com/DWFLS/AutosaveNotepad");return false;'>
             <div class="project-list-item" id="gotoAS">
-              <img class="project-list-image"  src="./res/img/as.png" alt="Screenshot of AutosaveNotepad">
+              <video class="project-list-image" src="./res/video/as.mp4" poster="res/img/as.png" autoplay loading="lazy" loop muted alt="Video snippet of AutosaveNotepad"></video>
               <div class="project-list-text">
                 
                 <p>
@@ -262,27 +261,28 @@
               </p></div>
             </div>
             </a>
-            <a href="https://github.com/DWFLS/YourLocalHero" onclick='window.open("https://github.com/DWFLS/YourLocalHero");return false;'>
-            <div class="project-list-item" id="gotoYLH">
-              <img class="project-list-image"  src="./res/img/ylh.png" alt="YourLocalHero">
-              <div class="project-list-text">
-                
-                <p>  
-                A personal project I've been working on to learn SQL. It's a desktop application connected to a local database that allowed me to experiment and gain hands-on experience with SQL queries. <b>YourLocalHero</b> features an intuitive graphical user interface (GUI) with a user-friendly search box where you can input your queries effortlessly. 
-                <br><br>
 
-                <b>YourLocalHero</b> is a purely experimental project that has allowed me to dive into SQL and learn its intricacies firsthand. The near aim is to convert it into an environment simulating a hero-for-hire application, that is constantly interchanging the data in the database.
-                <br><br>
-                
-                With comprehensive search functionality, you can explore the database and retrieve the stats of heroes featured in one of the most popular rpg video game of all time. Additionally, for convenience, you can easily switch between admin and user modes by using the "--admin" or "--user" keywords in the search box. This feature allows you to explore different functionalities and access relevant features based on your needs. 
+            <a href="https://github.com/DWFLS/YourLocalHero" onclick='window.open("https://github.com/DWFLS/YourLocalHero");return false;'>
+              <div class="project-list-item" id="gotoYLH">
+                <video class="project-list-image" src="./res/video/ylh.mp4" poster="res/img/ylh.png" autoplay loading="lazy" loop muted alt="Video snippet of YourLocalHero"></video>
+                <div class="project-list-text">
+                  
+                  <p>  
+                  A personal project I've been working on to learn SQL. It's a desktop application connected to a local database that allowed me to experiment and gain hands-on experience with SQL queries. <b>YourLocalHero</b> features an intuitive graphical user interface (GUI) with a user-friendly search box where you can input your queries effortlessly. 
+                  <br><br>
+
+                  <b>YourLocalHero</b> is a purely experimental project that has allowed me to dive into SQL and learn its intricacies firsthand. The near aim is to convert it into an environment simulating a hero-for-hire application, that is constantly interchanging the data in the database.
+                  <br><br>
+                  
+                  With comprehensive search functionality, you can explore the database and retrieve the stats of heroes featured in one of the most popular rpg video game of all time. Additionally, for convenience, you can easily switch between admin and user modes by using the "--admin" or "--user" keywords in the search box. This feature allows you to explore different functionalities and access relevant features based on your needs. 
 
               </p></div>
             </div>
           </a>
 
-            <a href="https://github.com/DWFelus/ThemedPomodoro" onclick='window.open("https://github.com/DWFelus/ThemedPomodoro");return false;'>
+          <a href="https://github.com/DWFelus/ThemedPomodoro" onclick='window.open("https://github.com/DWFelus/ThemedPomodoro");return false;'>
             <div class="project-list-item" id="gotoTP">          
-              <img class="project-list-image"  src="./res/img/tp.png" alt="ThemedPomodoro">
+              <video class="project-list-image" src="./res/video/tp.mp4" poster="res/img/tp.png" autoplay loading="lazy" loop muted alt="Video snippet of ThemedPomodoro"></video>
               <div class="project-list-text">
                 
                 <p>
@@ -298,9 +298,9 @@
             </div>
           </a>
 
-            <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts");return false;'> 
+          <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts");return false;'> 
             <div class="project-list-item" id="gotoPS">
-              <img class="project-list-image"  src="./res/img/ps.png" alt="Productivity Scripts">
+              <video class="project-list-image" src="./res/video/ps.mp4" poster="res/img/ps.png" autoplay loading="lazy" loop muted alt="Video snippet of Productivity Scripts"></video>
               <div class="project-list-text">
                 
                 <p>                
@@ -314,25 +314,26 @@
             </div>
           </a>
 
-            <a href="https://github.com/DWFelus/DWFLS-Portfolio-www" onclick='window.open("https://github.com/DWFelus/DWFLS-Portfolio-www");return false;'>
+          <a href="https://github.com/DWFelus/DWFLS-Portfolio-www" onclick='window.open("https://github.com/DWFelus/DWFLS-Portfolio-www");return false;'>
             <div class="project-list-item" id="gotoPORT">
-              <img class="project-list-image" src="./res/img/www.png" alt="Screenshot of Portfolio Website">
+              <video class="project-list-image" src="./res/video/www.mp4" poster="res/img/www.png" autoplay loading="lazy" loop muted alt="Video snippet of Portfolio Website"></video>
               <div class="project-list-text">
                 
                 <p>                
                 This webpage you look at now is <b>the very first website I've ever written!</b>
                 <br><br>
 
-                I embarked on this project with a simple goal in mind: to <b>learn HTML, CSS, responsive design</b> and to sprinkle a bit of <b>JavaScript</b> on top, while writing code in <b>Visual Studio Code</b> environment. Little did I know that this quest would unveil a whole new world of creativity and satisfaction, and in no time I kept expanding my initial minimalist idea to achieve the design solutions I wanted.
+                I embarked on this project with a simple goal in mind: to <b>learn HTML, CSS, responsive design</b> and to sprinkle a bit of <b>JavaScript</b> on top, while writing code in <b>Visual Studio Code</b> environment. Little did I know that this quest would unveil a whole new world of creativity and satisfaction, and in no time I kept expanding my initial minimalist idea to achieve bold design solutions I wanted.
                 <br><br>
                 Coming up with the style and layout of the webpage turned out to be an unexpectedly gratifying, yet challenging experience. It allowed me to tap into my artistic side and explore the possibilities of visual expression, while also putting my video editing to use while creating the <b>cover video</b>. The overall style is inspired by my history with range of retro computers, including most notably <b>Atari XE, Commodore C64 and Amiga</b>.
               
               </p></div>
             </div>
           </a>
-            <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat");return false;'>
+
+          <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat");return false;'>
             <div class="project-list-item" id="gotoMP">
-              <img class="project-list-image" src="./res/img/mp.png" alt="Screenshot of Music Programmer">
+              <video class="project-list-image" src="./res/video/mp.mp4" poster="res/img/mp.png" autoplay loading="lazy" loop muted alt="Video snippet of Music Programmer"></video>
               <div class="project-list-text">
                 
                 <p>

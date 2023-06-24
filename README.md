@@ -129,6 +129,8 @@ Version history:
 
 ### **v0.7.0 - Image Replacement p2**
   - [x] replace stock pictures with "go-to" pictures and videos
+  - [x] add hover videos on portfolio
+
 
 ### **v0.8.0 - Test Responsiveness and links**
 

@@ -29,9 +29,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-
-var myElement = document.getElementById('arrow-quiver');
-
-myElement.addEventListener('click', function() {
-  window.location.href = '#gotoAS'; // Replace with the desired URL or anchor
-});
