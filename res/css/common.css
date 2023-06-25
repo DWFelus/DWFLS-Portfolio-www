@@ -40,7 +40,7 @@ body
   box-shadow: 0 4px 100px rgb(0, 0, 0, 1); 
 
   z-index: -1;
-  opacity: 10;
+  opacity: 0;
   transition: opacity 1s ease-in 200ms;
 }
 
@@ -64,8 +64,7 @@ body
 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 a
