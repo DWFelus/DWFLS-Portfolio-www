@@ -5,6 +5,7 @@ window.addEventListener('load',
     const arrowQuiver = document.getElementById('arrow-quiver');
     const boxes = document.getElementsByClassName('box');
     const headlineWrappers = document.getElementsByClassName('headline-wrapper');
+    
 
     cover.addEventListener('transitionend', function() 
     {
@@ -24,3 +25,4 @@ window.addEventListener('load',
 
   }
 );
+

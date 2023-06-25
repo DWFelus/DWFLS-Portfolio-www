@@ -139,3 +139,4 @@ Version history:
 ### **v.1.0.0 Publish on GithubPages**
 - [x] done
 - [x] 0.1 fixed slow loading video on GithubPages
+- [x] 0.2 optimized video sizes
