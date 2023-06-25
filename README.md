@@ -140,3 +140,4 @@ Version history:
 - [x] done
 - [x] 0.1 fixed slow loading video on GithubPages
 - [x] 0.2 optimized video sizes
+- [x] 0.3 compressed videos and photos
