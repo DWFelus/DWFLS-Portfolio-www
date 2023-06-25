@@ -137,4 +137,5 @@ Version history:
 ### **v0.9.0 - Code clean up**
 
 ### **v.1.0.0 Publish on GithubPages**
-- [ ] done
+- [x] done
+- [x] 0.1 fixed slow loading video on GithubPages
