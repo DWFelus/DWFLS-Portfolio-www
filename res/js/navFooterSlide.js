@@ -1,12 +1,15 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', function()
+{
   const nav = document.querySelector('nav');
   const footer = document.querySelector('footer');
   
-  setTimeout(function() {
+  setTimeout(function()
+  {
     nav.classList.add('show');
   }, 0);
   
-  setTimeout(function() {
+  setTimeout(function()
+  {
     footer.classList.add('show');
   }, 0);
 });

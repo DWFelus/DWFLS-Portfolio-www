@@ -10,8 +10,8 @@ nav
   width:100%;
   height:8vh;
   text-align: center;
-  display: flex; /* Added to enable flexbox */
-  justify-content: center; /* Horizontally center child elements */
+  display: flex;
+  justify-content: center;
   align-items: center;
 
   z-index: 10;
@@ -36,8 +36,7 @@ nav h1
 
 }
 .nav-name
-{
-  
+{  
   margin: 1% 2%;
   margin-right: 50%;
   left:5%;
@@ -75,8 +74,8 @@ footer
   width:100%;
   height:8vh;
   text-align: center;
-  display: flex; /* Added to enable flexbox */
-  justify-content: left; /* Horizontally center child elements */
+  display: flex;
+  justify-content: left;
   align-items: center;
 
   z-index: 10;
@@ -98,7 +97,6 @@ footer h1
 {
   color: rgb(157, 157, 157);  
   margin-top: 1%;
-
 }
 
 .foot-text

@@ -1,44 +1,47 @@
-/*PROJECTS LIST*/
-#project-list
-{
-  margin-top: 5%;
-}
+/* ------------- */  
+/* PROJECTS LIST */
+/* ------------- */  
 
-.project-list-box
-{
-  display: block;    
-}
+  #project-list
+  {
+    margin-top: 5%;
+  }
 
-.project-list-item
-{
-  margin: 2%;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  filter: grayscale(25%);
-  position: relative;
-  transition: transform 1s ease, box-shadow 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
-}
+  .project-list-box
+  {
+    display: block;    
+  }
 
-.project-list-item:hover
-{
-  background-color: rgb(243, 243, 243);
-  transform: scale(1.02);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
-  
-  filter: grayscale(0%);
-}
+  .project-list-item
+  {
+    margin: 2%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    filter: grayscale(25%);
+    position: relative;
+    transition: transform 1s ease, box-shadow 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+  }
 
-.project-list-image
-{
-  margin: 1%;
-  height: 50%;
-  max-width: 50%; 
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
-}
+  .project-list-item:hover
+  {
+    background-color: rgb(243, 243, 243);
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+    
+    filter: grayscale(0%);
+  }
 
-.project-list-text
-{  
-  text-align: center;
-  margin: 1%;  
-}
+  .project-list-image
+  {
+    margin: 1%;
+    height: 50%;
+    max-width: 50%; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .project-list-text
+  {  
+    text-align: center;
+    margin: 1%;  
+  }

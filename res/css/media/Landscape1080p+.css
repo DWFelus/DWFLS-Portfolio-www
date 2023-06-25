@@ -1,6 +1,9 @@
 @media (min-width: 1921px) and (min-height: 1081px) and (orientation: landscape)
 {
-    /* TEXT FORMATTING */
+/* --------------- */  
+/* TEXT FORMATTING */
+/* --------------- */  
+
   #tagline
   {
     font-size: 3.3rem;
@@ -31,7 +34,11 @@
   {
     font-size: 1.3rem; 
   }
-  /* DIVS */
+
+/* ---- */  
+/* DIVS */
+/* ---- */  
+
   .box
   {
     margin-bottom: 30vh;
@@ -48,9 +55,10 @@
     right: 1%;
   }
   
-  
-  /* COVER */
-  
+/* ----- */  
+/* COVER */
+/* ----- */  
+
   .video-container
   {  
     height: 73vh;
@@ -83,17 +91,17 @@
   
     justify-content: center;
     justify-self: center;
-    align-self:center;   
-   
-  }
-  
+    align-self:center;      
+  }  
   
   #arrow-quiver
   {
     bottom: 12.1%;
   }
-  
-  /* NAV FOOT */
+
+/* -------- */  
+/* NAV FOOT */
+/* -------- */  
   
   .nav-text
   {
@@ -105,29 +113,25 @@
   {
     margin-right:30.5%;
   }
-
   
   footer
   {
     justify-content: center;
   }
   
-  
-  
-  /* BOXES */
+/* ----- */    
+/* BOXES */
+/* ----- */  
   
   .welcome-box
   {      
     display: flex;  
   }
-  
 
- 
   .project-list-box
   {
     bottom: 20vh;
-  }
-  
+  }  
   
   #project-list
   {

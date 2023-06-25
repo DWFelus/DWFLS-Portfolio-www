@@ -1,7 +1,9 @@
 @media (max-width: 1920px) and (max-height: 1080px) and (orientation: landscape)
 {
-  
-  /* DIVS */
+/* ---- */    
+/* DIVS */
+/* ---- */  
+
   .box
   {
     margin-bottom: 30vh;
@@ -18,9 +20,10 @@
     right: 1%;
   }
   
-  
-  /* COVER */
-  
+/* ----- */  
+/* COVER */
+/* ----- */ 
+
   .video-container
   {  
     height: 71vh;
@@ -66,8 +69,10 @@
   {
     bottom: 12.1%;
   }
-  
-  /* NAV FOOT */
+ 
+/* -------- */    
+/* NAV FOOT */
+/* -------- */  
   
   .nav-text
   {
@@ -82,9 +87,6 @@
     padding:0.5%;
   }
 
- 
-  
-  
   footer
   {
     justify-content: center;
@@ -100,8 +102,7 @@
   .welcome-box
   {      
     display: block;  
-  }
-  
+  }  
 
   p
   {

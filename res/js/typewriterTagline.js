@@ -32,17 +32,21 @@ function typeWriter(text, fnCallback)
   {
     if (i < text.length)
     {
-      if (text[i] === "<") {
+      if (text[i] === "<")
+      {
         // Skip "<br>" characters
         var endIndex = text.indexOf(">", i);
         h2Element.innerHTML = text.substring(0, endIndex + 1) + '<span aria-hidden="true"></span>';
         i = endIndex + 1;
-      } else {
+      }
+       else
+      {
         h2Element.innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
         i++;
       }
     }
-    else
+
+    else    
     {
       clearInterval(intervalId);
       if (typeof fnCallback === 'function') {

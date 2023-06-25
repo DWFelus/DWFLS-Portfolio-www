@@ -1,12 +1,10 @@
 .arrow-box
 { 
-  position: relative; /* Added to establish a containing block for absolute positioning */
-  
-  
+  position: relative;
+    
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.0);
-
 
   z-index: -1;
   bottom: 5vh;
@@ -30,7 +28,6 @@
   opacity: 0;
   transition: opacity 1s ease-in;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
-
 
   position: absolute;
   top: 50%;
@@ -59,9 +56,9 @@
   border: solid white;
 
   border-radius: 50%;
-  transform: translateX(-50%); /* Adjust to precisely center the arrow-down element */
-  width: 30px; /* Set the width of the arrow-down element */
-  height: 30px; /* Set the height of the arrow-down element */
+  transform: translateX(-50%); 
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 
   display: flex;
