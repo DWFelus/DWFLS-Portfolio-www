@@ -14,7 +14,7 @@ var observer;
 function trackProgress() {
   progressBar = document.getElementById("myProgressBar");
   resources = window.performance.getEntriesByType("resource");
-  totalResources = resources.length *0.6;
+  totalResources = resources.length *0.5;
   loadedResources = 0;
 
   function updateProgressBar() {
@@ -73,9 +73,9 @@ window.addEventListener('load', function() {
 
 
   cover.addEventListener('transitionend', function()
-  {
-    progressBar.style.width = "100%"; 
+  {    
     observer.disconnect();
+    progressBar.style.width = "100%"; 
 
     arrowQuiver.classList.add('show');
 
@@ -95,7 +95,9 @@ window.addEventListener('load', function() {
     
   });
 
-  cover.classList.add('loaded');
+  setTimeout(function() {
+    cover.classList.add('loaded');
+  }, 250);
   document.body.style.overflow = "auto";
 });
 
