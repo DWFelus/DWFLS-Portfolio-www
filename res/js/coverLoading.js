@@ -14,7 +14,7 @@ var observer;
 function trackProgress() {
   progressBar = document.getElementById("myProgressBar");
   resources = window.performance.getEntriesByType("resource");
-  totalResources = resources.length *0.5;
+  totalResources = resources.length *0.7;
   loadedResources = 0;
 
   function updateProgressBar() {
@@ -71,12 +71,14 @@ window.addEventListener('load', function() {
   taglineCenter = document.getElementById('tagline-center');
   loadScreen = document.getElementsByClassName('load-screen')[0];
 
+  observer.disconnect();
+
+    progressBar = document.getElementById("myProgressBar");   
+    progressBar.style.width = "100%";
 
   cover.addEventListener('transitionend', function()
   {    
-    observer.disconnect();
-    progressBar.style.width = "100%"; 
-
+    
     arrowQuiver.classList.add('show');
 
     for (let i = 0; i < boxes.length; i++) {
