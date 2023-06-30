@@ -2,6 +2,7 @@ body
 {   
   margin: 0 auto;
   background: rgba(42, 39, 75,1);
+  overflow: hidden;
 } 
 
 .box

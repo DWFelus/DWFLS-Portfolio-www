@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DWFLS Portfolio</title>
 
-    <!-- CSS FILES -->    
+    <!-- CSS FILES -->        
+    <link rel="stylesheet" type="text/css" href="./res/css/load-screen.css"> 
+
     <link rel="stylesheet" type="text/css" href="./res/css/common.css">    
     <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">  
 
@@ -40,7 +42,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
     <!-- JS -->
-    <script src="./res/js/typewriterTagline.js"></script>   
+    <script src="./res/js/typewriterTagline.js"></script>  
     <script src="./res/js/coverLoading.js"></script>    
     <script src="./res/js/gotoOffset.js"></script>     
     <script src="./res/js/navFooterSlide.js"></script>     
@@ -52,9 +54,21 @@
 
 
   <!-- VISIBLE WWW -->
-  <body>
-    
+<body> 
+
+  <div class="load-screen">
+            
+    <h2 id="loadtag">LOADING</h2>
+    <div class="progress-container">   
+        
+      <div class="progress-bar" id="myProgressBar"></div>      
+      
+    </div>
+  </div> 
+
+  <div id="content">
     <div id="top"></div>
+ 
     <!-- NAV + FOOTER -->
     
     <nav role="presentation"> 
@@ -76,9 +90,11 @@
 
     <!--MAIN CONTENT>-->
     <div class="content-box">   
+
       
       <!--ANIMATED HEADLINE-->
-      <div class="content-right">        
+      <div class="content-right">   
+             
         <div class="tagline-container" role="presentation"> 
           <h2 id="tagline"><span></span></h2>
         </div>        
@@ -89,7 +105,7 @@
 
         <!--ARROW/COVER BOX -->
         <div class="arrow-box" role="presentation">
-                  
+
           <div class="video-container">
             <video id="cover" preload="auto" autoplay loop muted src="res/video/cover5mbps50speed v2 audio comp.mp4" alt="Cover video of the www"></video>
           </div>
@@ -151,33 +167,33 @@
           <div class="project-gallery-box" role="presentation"> 
             <div class="project-gallery-item">
               <a href="#gotoAS">
-                <video class="project-box-image" src="./res/video/asV2.mp4" poster="res/img/as.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
+                <video class="project-box-image" preload="none" src="./res/video/asV2.mp4" poster="res/img/as.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoYLH">
-                <video class="project-box-image" src="./res/video/ylhV2.mp4" poster="res/img/ylh.jpg" loading="lazy" muted alt="YourLocalHero"></video>
+                <video class="project-box-image" preload="none" src="./res/video/ylhV2.mp4" poster="res/img/ylh.jpg" loading="lazy" muted alt="YourLocalHero"></video>
 
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoTP">
-                <video class="project-box-image" src="./res/video/tpV2.mp4" poster="res/img/tp.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
+                <video class="project-box-image" preload="none" src="./res/video/tpV2.mp4" poster="res/img/tp.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPS">
-                <video class="project-box-image" src="./res/video/psV2.mp4" poster="res/img/ps.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
+                <video class="project-box-image" preload="none" src="./res/video/psV2.mp4" poster="res/img/ps.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoPORT">
-                <video class="project-box-image" src="./res/video/wwwV2.mp4" poster="res/img/www.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
+                <video class="project-box-image" preload="none" src="./res/video/wwwV2.mp4" poster="res/img/www.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
             <div class="project-gallery-item">
               <a href="#gotoMP">
-                <video class="project-box-image" src="./res/video/mpV2.mp4" poster="res/img/mp.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
+                <video class="project-box-image" preload="none" src="./res/video/mpV2.mp4" poster="res/img/mp.jpg" loading="lazy" muted alt="AutosaveNotepad"></video>
               </a>
             </div>
           </div>
@@ -239,7 +255,7 @@
             
             <a href="https://github.com/DWFLS/AutosaveNotepad" onclick='window.open("https://github.com/DWFLS/AutosaveNotepad");return false;'>
             <div class="project-list-item" id="gotoAS">
-              <video class="project-list-image" src="./res/video/asV2.mp4" poster="res/img/as.jpg" autoplay loading="lazy" loop muted alt="Video snippet of AutosaveNotepad"></video>
+              <video class="project-list-image" preload="none" src="./res/video/asV3.mp4" poster="res/img/as.jpg" autoplay loading="lazy" loop muted alt="Video snippet of AutosaveNotepad"></video>
               <div class="project-list-text">
                 
                 <p>
@@ -257,7 +273,7 @@
 
             <a href="https://github.com/DWFLS/YourLocalHero" onclick='window.open("https://github.com/DWFLS/YourLocalHero");return false;'>
               <div class="project-list-item" id="gotoYLH">
-                <video class="project-list-image" src="./res/video/ylhV2.mp4" poster="res/img/ylh.jpg" autoplay loading="lazy" loop muted alt="Video snippet of YourLocalHero"></video>
+                <video class="project-list-image" preload="none" src="./res/video/ylhV3.mp4" poster="res/img/ylh.jpg" autoplay loading="lazy" loop muted alt="Video snippet of YourLocalHero"></video>
                 <div class="project-list-text">
                   
                   <p>  
@@ -275,7 +291,7 @@
 
           <a href="https://github.com/DWFelus/ThemedPomodoro" onclick='window.open("https://github.com/DWFelus/ThemedPomodoro");return false;'>
             <div class="project-list-item" id="gotoTP">          
-              <video class="project-list-image" src="./res/video/tpV2.mp4" poster="res/img/tp.jpg" autoplay loading="lazy" loop muted alt="Video snippet of ThemedPomodoro"></video>
+              <video class="project-list-image" preload="none" src="./res/video/tpV3.mp4" poster="res/img/tp.jpg" autoplay loading="lazy" loop muted alt="Video snippet of ThemedPomodoro"></video>
               <div class="project-list-text">
                 
                 <p>
@@ -293,7 +309,7 @@
 
           <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts");return false;'> 
             <div class="project-list-item" id="gotoPS">
-              <video class="project-list-image" src="./res/video/psV2.mp4" poster="res/img/ps.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Productivity Scripts"></video>
+              <video class="project-list-image" preload="none" src="./res/video/psV3.mp4" poster="res/img/ps.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Productivity Scripts"></video>
               <div class="project-list-text">
                 
                 <p>                
@@ -309,7 +325,7 @@
 
           <a href="https://github.com/DWFelus/DWFLS-Portfolio-www" onclick='window.open("https://github.com/DWFelus/DWFLS-Portfolio-www");return false;'>
             <div class="project-list-item" id="gotoPORT">
-              <video class="project-list-image" src="./res/video/wwwV2.mp4" poster="res/img/www.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Portfolio Website"></video>
+              <video class="project-list-image" preload="none" src="./res/video/wwwV3.mp4" poster="res/img/www.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Portfolio Website"></video>
               <div class="project-list-text">
                 
                 <p>                
@@ -326,7 +342,7 @@
 
           <a href="https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat" onclick='window.open("https://github.com/DWFelus/Suite-of-Productivity-Scripts/blob/main/SOPscripts/MusicalTimeProgrammer.bat");return false;'>
             <div class="project-list-item" id="gotoMP">
-              <video class="project-list-image" src="./res/video/mpV2.mp4" poster="res/img/mp.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Music Programmer"></video>
+              <video class="project-list-image" preload="none" src="./res/video/mpV3.mp4" poster="res/img/mp.jpg" autoplay loading="lazy" loop muted alt="Video snippet of Music Programmer"></video>
               <div class="project-list-text">
                 
                 <p>
@@ -357,6 +373,8 @@
       </div>
       
     </div>
+  
       <!-- VISIBLE WWW END -->
+    </div>
   </body>
 </html>

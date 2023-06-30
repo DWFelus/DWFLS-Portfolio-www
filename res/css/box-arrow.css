@@ -42,7 +42,7 @@
   object-position: center center;
 }
 
-#cover.loaded 
+#cover.loaded
 {
   opacity: 1;
 }
