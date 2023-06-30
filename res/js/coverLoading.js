@@ -22,7 +22,7 @@ function trackProgress() {
     var progress = Math.round((loadedResources / totalResources) * 100);
     progressBar.style.width = progress + "%";
 
-    if (loadedResources === totalResources) {
+    if (loadedResources === totalResources || loadedResources > totalResources) {
       progressBar.style.width = "100%"; // 
       observer.disconnect(); // 
     }
