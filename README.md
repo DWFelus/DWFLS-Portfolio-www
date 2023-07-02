@@ -143,3 +143,4 @@ Version history:
 - [x] 0.3 compressed videos and photos
 - [x] 0.4 loading screen
 - [x] 0.5 enhanced text and hoste at my domain
+- [x] 0.6 updates path to project box v3 videos
