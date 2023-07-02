@@ -142,3 +142,4 @@ Version history:
 - [x] 0.2 optimized video sizes
 - [x] 0.3 compressed videos and photos
 - [x] 0.4 loading screen
+- [x] 0.5 enhanced text and hoste at my domain
