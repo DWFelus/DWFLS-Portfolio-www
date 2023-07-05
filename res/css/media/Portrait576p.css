@@ -128,17 +128,17 @@
 
   .nav-name
   {
-    font-size: 1.2rem;  
+    font-size: 1.0rem;  
     margin-right: 2%;
   }
 
   .nav-text
   {
-    font-size: 1.0rem;  
+    font-size: 0.8rem;  
   }
 
   .foot-text
   {
-    font-size: 0.7rem; 
+    font-size: 0.5rem; 
   }
 }
